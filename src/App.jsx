@@ -109,6 +109,7 @@ const App = () => {
             className="help-btn"
             size="large"
             icon={<QuestionCircleOutlined />}
+            onClick={() => window.open("https://oaknorth.co.uk/faqs/personal/")}
           >
             Help
           </Button>
